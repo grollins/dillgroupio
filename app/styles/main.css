@@ -7,8 +7,22 @@
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+input, button, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -34,9 +48,12 @@ body {
 
 /* Custom page footer */
 .footer {
+    margin-top: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 19px;
     color: #777;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #aaa;
 }
 
 .container-narrow > hr {
@@ -47,6 +64,10 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
 }
 
 .jumbotron .btn {
